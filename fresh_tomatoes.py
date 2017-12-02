@@ -150,8 +150,11 @@ def create_movie_tiles_content(movies):
         )
     return content
 
+
 def open_movies_page(movies):
-    '''Takes a list of movies and updates HTML with their objects, then opens that webpage'''
+    # Takes a list of movies and updates HTML with their objects,
+    # then opens that webpage
+
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
 
